@@ -1,0 +1,101 @@
+
+/* cores do texto #fdf2fd */
+/* cor de fundo  #1f051f */
+/* botao primario #dd22dd */
+/* botao secundario #120312 */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;0,800;0,900;1,600;1,700;1,800;1,900&display=swap');
+  *{
+    color: #fdf2fd;
+}
+
+body {
+   background-color: #370637;
+   height: 100vh;
+   margin: 0 auto;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+  }
+
+ header h1{
+   margin-left: 30vh;
+   color: #fdf2fd;
+   font-family: 'Poppins';
+ }
+
+ header h1::after {
+    content: "";
+    display: block;
+    border: 3px solid black;
+ }
+
+  
+  header nav ul {
+    display: flex;
+    list-style: none;
+   
+  }
+  
+  header nav ul li {
+  margin-left: 10px;
+  }
+
+  header a{
+    list-style: none;
+    text-decoration: none;
+    color: #fdf2fd;
+  }
+
+ #produtos img {
+    border-radius: 10px;
+}
+
+#produtos .pc-branco{
+    width: 100px;
+}
+
+
+#ofertas .monitor {
+        padding: 8px;
+        margin-left: 10px;
+        background-color: #282828;
+        border-radius: 10px;
+        width: 480px;
+        align-items: center;
+        display: flex;
+}
+
+
+#ofertas h2{
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   font-size: 50px;
+}
+#ofertas .monitor img {
+    
+  
+    border-radius: 10px;
+    opacity: 10px;
+    filter: drop-shadow(8px 10px 10px rgb(0, 0, 0));
+}
+
+
+
+#ofertas .monitor p {
+    font-size: 24px;
+    color: #fdf2fd;
+    font-family: 'Poppins';
+    margin-top: 100px;
+    
+}
+
+#ofertas .teclado {
+    width: 225px;
+    height: 255px;
+}
