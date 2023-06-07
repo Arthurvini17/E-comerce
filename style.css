@@ -12,7 +12,7 @@
 }
 
 body {
-  background-color: #000000;
+  background-color: #e0aaff;
   height: 100vh;
   margin: 0 auto;
 }
@@ -52,7 +52,7 @@ header nav ul li {
 header a {
   list-style: none;
   text-decoration: none;
-  color: #f2f2f2;
+  color: #10002b;
 }
 
 #produtos img {
@@ -71,14 +71,18 @@ header a {
   gap: 30px;
   margin-left: 20px;
   margin-right: 20px;
+  background-color: #10002b;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 10px 10px 10px black;
 
 }
 
 
 #ofertas h2 {
   font-family: 'Kanit', sans-serif;
-  color: #f2f2f2;
-  filter: drop-shadow(8px 4px 10px #f2f2f2);
+  color: #10002b;
+  filter: drop-shadow(8px 4px 10px black);
   align-items: center;
   justify-content: center;
   display: flex;
@@ -86,29 +90,30 @@ header a {
 }
 
 #ofertas .monitor {
-  width: 480px;
-  margin-left: 10px;
-  background-color: #282828;
-  border-radius: 10px;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  box-shadow: 4px 4px 10px 4px #dd22dd;
-  transition: width 300ms;
-  cursor: pointer;
+    width: 300px;
+    
+    background-color: #3c096c;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 4px 4px 10px 4px #e0aaff;
+    transition: width 300ms;
+    cursor: pointer;
 }
 
 #ofertas .monitor:hover {
-  width: 500px;
+    width: 350px;
 }
 
 
 
 #ofertas .monitor img {
-  margin-right: 15px;
-  filter: drop-shadow(8px 10px 10px rgb(0, 0, 0));
+  
+  filter: drop-shadow(15px 10px 5px rgb(0, 0, 0));
+  
 
 
 }
@@ -117,6 +122,7 @@ header a {
   font-size: 24px;
   color: #fdf2fd;
   font-family: 'Poppins';
+  filter: drop-shadow(10px 10px 5px rgb(0, 0, 0));
 }
 
 #ofertas .monitor p {
@@ -135,27 +141,29 @@ header a {
 
 #ofertas .mouse-preto {
   width: 210px;
-  filter: drop-shadow(8px 10px 10px rgb(0, 0, 0));
-
+  filter: drop-shadow(15px 10px 5px rgb(0, 0, 0));
+ 
+  
+  
 }
 
 #ofertas .mouse {
-  width: 480px;
-  margin-left: 10px;
-  background-color: #282828;
-  border-radius: 10px;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  box-shadow: 4px 4px 10px 4px #dd22dd;
-  transition: width 300ms;
-  cursor: pointer;
+    width: 300px;
+    margin-left: 10px;
+    background-color: #3c096c;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 4px 4px 10px 4px #e0aaff;
+    transition: width 300ms;
+    cursor: pointer;
 }
 
 #ofertas .mouse:hover {
-  width: 500px;
+    width: 350px;
 }
 
 #ofertas .mouse h4 {
@@ -163,6 +171,7 @@ header a {
   color: #fdf2fd;
   font-family: 'Poppins';
   filter: drop-shadow(10px 10px 5px rgb(0, 0, 0));
+ 
   padding: 10px;
 }
 
@@ -179,22 +188,29 @@ header a {
 
 
 #ofertas .fone {
-  width: 480px;
+  width: 300px;
   margin-left: 10px;
-  background-color: #282828;
+  background-color: #3c096c;
   border-radius: 10px;
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  box-shadow: 4px 4px 10px 4px #dd22dd;
+  box-shadow: 4px 4px 10px 4px #e0aaff;
   transition: width 300ms;
   cursor: pointer;
+ 
 }
 
 #ofertas .fone:hover {
-  width: 500px;
+    width: 350px;
+}
+
+#ofertas  .fone-img {
+    filter: drop-shadow(10px 20px 10px black);
+   
+    
 }
 
 #ofertas .fone h4 {
@@ -217,22 +233,23 @@ header a {
 }
 
 #ofertas .controle {
-  width: 480px;
-  margin-left: 10px;
-  background-color: #282828;
-  border-radius: 10px;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  box-shadow: 4px 4px 10px 4px #dd22dd;
-  transition: width 300ms;
-  cursor: pointer;
+    width: 300px;
+    
+    margin-left: 10px;
+    background-color: #3c096c;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 4px 4px 10px 4px #e0aaff;
+    transition: width 300ms;
+    cursor: pointer;
 }
 
 #ofertas .controle:hover {
-  width: 500px;
+  width: 350px;
 }
 
 #ofertas .controle h4 {
@@ -253,6 +270,10 @@ header a {
   display: flex;
 }
 
+#ofertas .controle-xbox {
+    filter: drop-shadow(10px 10px 5px rgb(0, 0, 0));
+}
+
 #ofertas .baixo {
   display: flex;
   justify-content: center;
@@ -260,6 +281,11 @@ header a {
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 30px;
+  background-color: #10002b;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 10px 10px 10px black;
+  filter: drop-shadow(30px 20px 5px rgb(0, 0, 0));
 }
 
 
@@ -276,32 +302,39 @@ header a {
 
 #produtos h2 {
   font-family: 'Kanit', sans-serif;
-  color: #f2f2f2;
-  filter: drop-shadow(8px 10px 10px rgb(0, 0, 0));
+ 
+ 
   align-items: center;
   justify-content: center;
   display: flex;
-  font-size: 50px;
+  font-size: 30px;
+  color: #10002b;
+  filter: drop-shadow(8px 4px 10px black);
+  align-items: center;
+  
 }
 
 #produtos .container-2 .pc-branco-fundo {
   width: 450px;
   margin-left: 10px;
-  background-color: #282828;
+  background-color: #3c096c;
   border-radius: 10px;
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  box-shadow: 4px 4px 10px 4px white;
+  box-shadow: 4px 4px 10px 4px black;
   transition: width 300ms;
+  
   cursor: pointer;
 
 }
 
 #produtos .container-2 .pc-branco {
   width: 270px;
+  filter: drop-shadow(30px 20px 10px black);
+  
 
 }
 
@@ -313,16 +346,21 @@ header a {
   cursor: pointer;
   width: 450px;
   margin-left: 10px;
-  background-color: #282828;
+  background-color: #3c096c;
   border-radius: 10px;
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  box-shadow: 4px 4px 10px 4px white;
+  box-shadow: 4px 4px 10px 4px black;
   transition: width 300ms;
   padding: 30px;
+
+}
+
+#produtos .container-2 .pc-preto {
+    filter: drop-shadow(30px 20px 10px black);
 }
 
 #produtos .container-2 .pc-preto-fundo:hover {
@@ -332,19 +370,22 @@ header a {
 #produtos .container-2 .pc-preto2-fundo {
   width: 450px;
   margin-left: 10px;
-  background-color: #282828;
+  background-color: #3c096c;
   border-radius: 10px;
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  box-shadow: 4px 4px 10px 4px white;
+  box-shadow: 4px 4px 10px 4px black;
   transition: width 300ms;
   margin-right: 15px;
   cursor: pointer;
 }
 
+#produtos .container-2 .pc-preto-2{
+    filter: drop-shadow(30px 20px 10px black);
+}
 
 #produtos .container-2 .pc-preto2-fundo:hover {
   width: 500px;
@@ -397,8 +438,6 @@ header a {
 
 }
 
-
-
 #produtos .pc-preto2-fundo h4 {
   font-size: 24px;
   color: #fdf2fd;
@@ -418,12 +457,16 @@ header a {
 }
 
 
+footer {
+    background-color: black;
+}
 footer .contato {
   display: flex;
 
   justify-content: center;
   flex-direction: row;
   gap: 30px;
+  
   
 }
 

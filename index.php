@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
 
@@ -14,15 +14,15 @@
 <body>
   <header>
     <!-- Seção do cabeçalho da loja -->
-   
+
     <nav>
       <!-- Navegação do site, como menu e links -->
       <ul>
         <li><a href="#">Página Inicial</a></li>
-        <li><a href="#">Produtos</a></li>
+        <li><a href="#produtos">Produtos</a></li>
         <li><a href="#">Carrinho</a></li>
         <li><a href="#">Sobre Nós</a></li>
-        <li><a href="#">Contato</a></li>
+        <li><a href="#contato">Contato</a></li>
       </ul>
     </nav>
   </header>
@@ -33,33 +33,35 @@
     <h2>OFERTAS</h2>
 
     <div class="container">
-      <div class="monitor">
+  
+        <div class="monitor">
+          <img src="/E-comerce/eletronicos/monitor.png" alt="monitor" class="monitor-1">
+          <h4>Monitor 244HZ por apenas <span>1000 R$</span></h4>
+          <p>Coisas sobre o produto aqui
+          <p>
+        </div>
 
+        <div class="mouse">
+          <img src="/E-comerce/eletronicos/mouse-preto.png" alt="mouse-preto" class="mouse-preto">
+          <h4>Mouse Gamer 1000DPI por apenas <span>120 R$<span></h4>
+          <p>Coisas sobre o produto aqui
+          <p>
+        </div>
 
+        <div class="fone">
+          <img src="/E-comerce/eletronicos/fone.png" alt="fone" class="fone-img">
+          <h4>Fone redragon <span> 130 R$<span></h4>
+          <p>Coisas sobre o produto aqui
+          <p>
+        </div>
 
-        <img src="/E-comerce/eletronicos/monitor.png" alt="monitor" class="monitor-1">
-        <h4>Monitor 244HZ por apenas <span>1000 R$</span></h4>
-        <p>Coisas sobre o produto aqui
-        <p>
-      </div>
-      <div class="mouse">
-        <img src="/E-comerce/eletronicos/mouse-preto.png" alt="mouse-preto" class="mouse-preto">
-        <h4>Mouse Gamer 1000DPI por apenas <span>120 R$<span></h4>
-        <p>Coisas sobre o produto aqui
-        <p>
-      </div>
-      <div class="fone">
-        <img src="/E-comerce/eletronicos/fone.png" alt="fone" class="fone.img">
-        <h4>Fone redragon <span> 130 R$<span></h4>
-        <p>Coisas sobre o produto aqui
-        <p>
-      </div>
-      <div class="controle">
-        <img src="/E-comerce/eletronicos/controle.png" alt="" class="controle-xbox">
-        <h4>Controle XBOX ONE S Branco <span>230 R$</span></h4>
-        <p>Coisas sobre o produto aqui
-        <p>
-      </div>
+        <div class="controle">
+          <img src="/E-comerce/eletronicos/controle.png" alt="" class="controle-xbox">
+          <h4>Controle XBOX ONE S Branco <span>230 R$</span></h4>
+          <p>Coisas sobre o produto aqui
+          <p>
+        </div>
+        
 
 
     </div>
@@ -131,46 +133,46 @@
     <!-- Conteúdo sobre a empresa aqui -->
   </section>
 
-  
+
   </section>
 
-  <footer>
+  <footer id="contato">
     <!-- Rodapé da página -->
     <h4>Contato</h4>
 
 
     <div class="contato">
 
-    <ul>
-      <p>DEV Arthur</p>
-      <li>
-      <div class="git-hub">
-      <img src="imagens/github.png" alt="" class="git-hub"> <a href="https://github.com/Arthurvini17">Github</a>
-      </div>
-        <a href="https://www.linkedin.com/in/arthur-vinicius-b22202270/">Linkedin</a>
-        <a href="">Linkedin</a>
-      </li>
-    </ul>
+      <ul>
+        <p>DEV Arthur</p>
+        <li>
+          <div class="git-hub">
+            <img src="imagens/github.png" alt="" class="git-hub"> <a href="https://github.com/Arthurvini17">Github</a>
+          </div>
+          <a href="https://www.linkedin.com/in/arthur-vinicius-b22202270/">Linkedin</a>
+          <a href="">Linkedin</a>
+        </li>
+      </ul>
 
-  <div class="list-2">
-    <ul>
-      <p>DEV EDVALDO</p>
-      <li>
-      <div class="git-hub2">
-        
-        <img src="imagens/github.png" alt="" class="git-hub"> <a href="https://github.com/Arthurvini17">Github</a>
+      <div class="list-2">
+        <ul>
+          <p>DEV EDVALDO</p>
+          <li>
+            <div class="git-hub2">
+
+              <img src="imagens/github.png" alt="" class="git-hub"> <a href="https://github.com/Arthurvini17">Github</a>
+            </div>
+            <a href="https://www.linkedin.com/in/arthur-vinicius-b22202270/">Linkedin</a>
+            <a href="">Linkedin</a>
+          </li>
+        </ul>
       </div>
-        <a href="https://www.linkedin.com/in/arthur-vinicius-b22202270/">Linkedin</a>
-        <a href="">Linkedin</a>
-    </li>
-    </ul>
-    </div>
-   
-   
-    
+
+
+
     </div>
     <p>&copy; 2023 Minha Loja de Eletrônicos. Todos os direitos reservados.</p>
-   
+
   </footer>
 </body>
 
