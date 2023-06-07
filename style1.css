@@ -1,0 +1,508 @@
+/* cores do texto #fdf2fd
+/* cor de fundo  #1f051f */
+/* botao primario #dd22dd */
+/* botao secundario #120312 */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;0,800;0,900;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,800;0,900;1,700;1,800;1,900&display=swap');
+
+* {
+  font-family: 'Kanit', sans-serif;
+  color: #dd22dd;
+}
+
+body {
+  background-color: #000000;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #f2f2f2;
+  font-family: 'Poppins';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 20px;
+}
+
+
+header h1::after {
+  content: "";
+  display: block;
+  border: 3px solid black;
+}
+
+
+header nav ul {
+  display: flex;
+  list-style: none;
+
+}
+
+header nav ul li {
+  margin-left: 10px;
+}
+
+header a {
+  list-style: none;
+  text-decoration: none;
+  color: #f2f2f2;
+}
+
+#produtos img {
+  border-radius: 10px;
+}
+
+#produtos .pc-branco {
+  width: 100px;
+}
+
+
+/* tela preta das ofertas */
+#ofertas .container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+
+#ofertas h2 {
+  font-family: 'Kanit', sans-serif;
+  color: #f2f2f2;
+  filter: drop-shadow(8px 4px 10px #f2f2f2);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 50px;
+}
+
+#ofertas .monitor {
+  width: 480px;
+  margin-left: 10px;
+  background-color: #282828;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 4px 4px 10px 4px #dd22dd;
+  transition: width 300ms;
+  cursor: pointer;
+}
+
+#ofertas .monitor:hover {
+  width: 500px;
+}
+
+
+
+#ofertas .monitor img {
+  margin-right: 15px;
+  filter: drop-shadow(8px 10px 10px rgb(0, 0, 0));
+
+
+}
+
+#ofertas .monitor h4 {
+  font-size: 24px;
+  color: #fdf2fd;
+  font-family: 'Poppins';
+}
+
+#ofertas .monitor p {
+  color: #fdf2fd;
+  font-family: 'Poppins';
+
+
+}
+
+#ofertas .teclado {
+  width: 225px;
+  height: 255px;
+}
+
+
+
+#ofertas .mouse-preto {
+  width: 210px;
+  filter: drop-shadow(8px 10px 10px rgb(0, 0, 0));
+
+}
+
+#ofertas .mouse {
+  width: 480px;
+  margin-left: 10px;
+  background-color: #282828;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 4px 4px 10px 4px #dd22dd;
+  transition: width 300ms;
+  cursor: pointer;
+}
+
+#ofertas .mouse:hover {
+  width: 500px;
+}
+
+#ofertas .mouse h4 {
+  font-size: 24px;
+  color: #fdf2fd;
+  font-family: 'Poppins';
+  filter: drop-shadow(10px 10px 5px rgb(0, 0, 0));
+  padding: 10px;
+}
+
+#ofertas .mouse span {
+  color: #dd22dd;
+}
+
+#ofertas .mouse p {
+  color: #fdf2fd;
+  font-family: 'Poppins';
+
+
+}
+
+
+#ofertas .fone {
+  width: 480px;
+  margin-left: 10px;
+  background-color: #282828;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 4px 4px 10px 4px #dd22dd;
+  transition: width 300ms;
+  cursor: pointer;
+}
+
+#ofertas .fone:hover {
+  width: 500px;
+}
+
+#ofertas .fone h4 {
+  font-size: 24px;
+  color: #fdf2fd;
+  font-family: 'Poppins';
+  filter: drop-shadow(10px 10px 5px rgb(0, 0, 0));
+  padding: 10px;
+}
+
+#ofertas .fone span {
+  color: #dd22dd;
+}
+
+#ofertas .fone p {
+  color: #fdf2fd;
+  font-family: 'Poppins';
+
+
+}
+
+#ofertas .controle {
+  width: 480px;
+  margin-left: 10px;
+  background-color: #282828;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 4px 4px 10px 4px #dd22dd;
+  transition: width 300ms;
+  cursor: pointer;
+}
+
+#ofertas .controle:hover {
+  width: 500px;
+}
+
+#ofertas .controle h4 {
+  font-size: 24px;
+  color: #fdf2fd;
+  font-family: 'Poppins';
+  filter: drop-shadow(10px 10px 5px rgb(0, 0, 0));
+  padding: 10px;
+}
+
+#ofertas .controle span {
+  color: #dd22dd;
+}
+
+#ofertas .controle p {
+  color: #fdf2fd;
+  font-family: 'Poppins';
+  display: flex;
+}
+
+#ofertas .baixo {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+
+
+/* section produtos */
+
+
+#produtos .container-2 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 30px;
+
+}
+
+#produtos h2 {
+  font-family: 'Kanit', sans-serif;
+  color: #f2f2f2;
+  filter: drop-shadow(8px 10px 10px rgb(0, 0, 0));
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 50px;
+}
+
+#produtos .container-2 .pc-branco-fundo {
+  width: 450px;
+  margin-left: 10px;
+  background-color: #282828;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 4px 4px 10px 4px white;
+  transition: width 300ms;
+  cursor: pointer;
+
+}
+
+#produtos .container-2 .pc-branco {
+  width: 270px;
+
+}
+
+#produtos .container-2 .pc-branco-fundo:hover {
+  width: 500px;
+}
+
+#produtos .container-2 .pc-preto-fundo {
+  cursor: pointer;
+  width: 450px;
+  margin-left: 10px;
+  background-color: #282828;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 4px 4px 10px 4px white;
+  transition: width 300ms;
+  padding: 30px;
+}
+
+#produtos .container-2 .pc-preto-fundo:hover {
+  width: 500px;
+}
+
+#produtos .container-2 .pc-preto2-fundo {
+  width: 450px;
+  margin-left: 10px;
+  background-color: #282828;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 4px 4px 10px 4px white;
+  transition: width 300ms;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+
+#produtos .container-2 .pc-preto2-fundo:hover {
+  width: 500px;
+}
+
+#produtos .pc-branco-fundo h4 {
+  font-size: 24px;
+  color: #fdf2fd;
+  font-family: 'Poppins';
+  filter: drop-shadow(10px 10px 5px rgb(0, 0, 0));
+  padding: 10px;
+}
+
+#produtos .pc-branco-fundo span {
+  color: #dd22dd;
+}
+
+
+#produtos .pc-branco-fundo p {
+  color: #fdf2fd;
+  font-family: 'Poppins';
+  display: flex;
+}
+
+
+#produtos .pc-branco-fundo h4 {
+  font-size: 24px;
+  color: #fdf2fd;
+  font-family: 'Poppins';
+  filter: drop-shadow(10px 10px 5px rgb(0, 0, 0));
+  padding: 10px;
+}
+
+
+#produtos .pc-preto-fundo span {
+  color: #dd22dd;
+}
+
+#produtos .pc-preto-fundo p {
+  color: #fdf2fd;
+  font-family: 'Poppins';
+  display: flex;
+}
+
+#produtos .pc-preto-fundo h4 {
+  font-size: 24px;
+  color: #fdf2fd;
+  font-family: 'Poppins';
+  filter: drop-shadow(10px 10px 5px rgb(0, 0, 0));
+
+}
+
+
+
+#produtos .pc-preto2-fundo h4 {
+  font-size: 24px;
+  color: #fdf2fd;
+  font-family: 'Poppins';
+  filter: drop-shadow(10px 10px 5px rgb(0, 0, 0));
+  padding: 10px;
+}
+
+#produtos .pc-preto2-fundo span {
+  color: #dd22dd;
+}
+
+#produtos .pc-preto2-fundo p {
+  color: #fdf2fd;
+  font-family: 'Poppins';
+  display: flex;
+}
+
+
+footer .contato {
+  display: flex;
+
+  justify-content: center;
+  flex-direction: row;
+  gap: 30px;
+  
+}
+
+footer h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* rodape do site  */
+
+
+footer .contato ul,
+li {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+ 
+
+}
+
+footer .contato li {
+  gap: 2px;
+}
+
+footer .contato p {
+  color: #fdf2fd;
+  font-family: 'Poppins';
+  
+
+}
+
+footer h4 {
+  font-size: 24px;
+  color: #fdf2fd;
+  font-family: 'Poppins';
+  filter: drop-shadow(10px 10px 5px rgb(0, 0, 0));
+
+}
+
+
+
+footer p {
+  font-size: 18px;
+  color: #fdf2fd;
+  font-family: 'Poppins';
+  filter: drop-shadow(10px 10px 5px rgb(0, 0, 0));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer a {
+  color: #f2f2f2;
+  text-decoration: none;
+}
+footer a:hover {
+  transform: scaleX(1.2);
+  transition: transform 0.8s;
+  
+}
+
+
+footer .contato .git-hub {
+
+  gap: 10px;
+  width: 24px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+footer .contato .git-hub2 {
+
+  gap: 10px;
+  width: 24px;
+  
+  display: flex;
+  justify-content: center;
+}

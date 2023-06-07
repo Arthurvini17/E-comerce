@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style1.css">
   <title>Document</title>
 </head>
 
@@ -14,7 +14,7 @@
 <body>
   <header>
     <!-- Seção do cabeçalho da loja -->
-    <h1>Minha Loja de Eletrônicos</h1>
+   
     <nav>
       <!-- Navegação do site, como menu e links -->
       <ul>
@@ -26,44 +26,96 @@
       </ul>
     </nav>
   </header>
+  <h1>Minha Loja de Eletrônicos</h1>
 
   <section id="ofertas">
     <!-- Seção de destaques ou produtos em destaque -->
     <h2>OFERTAS</h2>
+
     <div class="container">
       <div class="monitor">
-        
-        <img src="/eletronicos/monitor.png" alt="monitor" class="monitor-1">
+
+
+
+        <img src="/E-comerce/eletronicos/monitor.png" alt="monitor" class="monitor-1">
         <h4>Monitor 244HZ por apenas <span>1000 R$</span></h4>
-        <p>Coisas sobre o produto aqui<p>
+        <p>Coisas sobre o produto aqui
+        <p>
       </div>
       <div class="mouse">
-        <img src="/eletronicos/mouse-preto.png" alt="mouse-preto" class="mouse-preto">
+        <img src="/E-comerce/eletronicos/mouse-preto.png" alt="mouse-preto" class="mouse-preto">
         <h4>Mouse Gamer 1000DPI por apenas <span>120 R$<span></h4>
-        <p>Coisas sobre o produto aqui<p>
+        <p>Coisas sobre o produto aqui
+        <p>
       </div>
-        <div class="fone">
-          <img src="/eletronicos/fone.png" alt="fone" class="fone.img"> 
-          <h4>Fone redragon <span> 130 R$<span></h4>
-          <p>Coisas sobre o produto aqui<p>
-        </div>
-        <div class="controle">
-          <img src="/eletronicos/controle.png" alt="" class="controle-xbox">
-          <h4>Controle XBOX ONE S Branco <span>230 R$</span></h4>
-          <p>Coisas sobre o produto aqui<p>
-            
-        </div>
+      <div class="fone">
+        <img src="/E-comerce/eletronicos/fone.png" alt="fone" class="fone.img">
+        <h4>Fone redragon <span> 130 R$<span></h4>
+        <p>Coisas sobre o produto aqui
+        <p>
+      </div>
+      <div class="controle">
+        <img src="/E-comerce/eletronicos/controle.png" alt="" class="controle-xbox">
+        <h4>Controle XBOX ONE S Branco <span>230 R$</span></h4>
+        <p>Coisas sobre o produto aqui
+        <p>
+      </div>
+
+
     </div>
 
+    <div class="baixo">
+      <div class="controle">
+        <img src="/E-comerce/eletronicos/controle.png" alt="" class="controle-xbox">
+        <h4>Controle XBOX ONE S Branco <span>230 R$</span></h4>
+        <p>Coisas sobre o produto aqui
+        <p>
+      </div>
+
+      <div class="controle">
+        <img src="/E-comerce/eletronicos/controle.png" alt="" class="controle-xbox">
+        <h4>Controle XBOX ONE S Branco <span>230 R$</span></h4>
+        <p>Coisas sobre o produto aqui
+        <p>
+      </div>
+
+      <div class="controle">
+        <img src="/E-comerce/eletronicos/controle.png" alt="" class="controle-xbox">
+        <h4>Controle XBOX ONE S Branco <span>230 R$</span></h4>
+        <p>Coisas sobre o produto aqui
+        <p>
+      </div>
+
+      <div class="controle">
+        <img src="/E-comerce/eletronicos/controle.png" alt="" class="controle-xbox">
+        <h4>Controle XBOX ONE S Branco <span>230 R$</span></h4>
+        <p>Coisas sobre o produto aqui
+        <p>
+      </div>
+    </div>
     <!-- Conteúdo dos destaques aqui -->
   </section>
 
   <section id="produtos">
     <h2>Produtos</h2>
-    <img src="/eletronicos/Picsart_23-06-05_01-23-53-024.png" alt="pc-branco" class="pc-branco">
-    <img src="/eletronicos/714sFk3poYL._AC_UL320_-removebg-preview.png" alt="pc-preto" class="pc-preto">
-    <img src="/eletronicos/61a30YVcP2L._AC_UL320_-removebg-preview.png" alt="pc">
+    <div class="container-2">
+      <div class="pc-branco-fundo">
+        <img src="/E-comerce/eletronicos/Picsart_23-06-05_01-23-53-024.png" alt="pc-branco" class="pc-branco">
+        <h4>Gabinete Branco por apenas <span>1000 R$</span> </h4>
+        <p>Descrição do Gabinete</p>
+      </div>
+      <div class="pc-preto-fundo">
+        <img src="/E-comerce/eletronicos/714sFk3poYL._AC_UL320_-removebg-preview.png" alt="pc-preto" class="pc-preto">
+        <h4>Gabinete Branco por apenas <span>1000 R$</span> </h4>
+        <p>Descrição do Gabinete</p>
+      </div>
 
+      <div class="pc-preto2-fundo">
+        <img src="/E-comerce/eletronicos/61a30YVcP2L._AC_UL320_-removebg-preview.png" alt="pc" class="pc-preto-2">
+        <h4>Gabinete Branco por apenas <span>1000 R$ </span></h4>
+        <p>Descrição do Gabinete</p>
+      </div>
+    </div>
     <!-- Conteúdo dos produtos aqui -->
   </section>
 
@@ -79,15 +131,46 @@
     <!-- Conteúdo sobre a empresa aqui -->
   </section>
 
-  <section id="contato">
-    <!-- Seção de contato -->
-    <h2>Contato</h2>
-    <!-- Formulário de contato ou informações de contato aqui -->
+  
   </section>
 
   <footer>
     <!-- Rodapé da página -->
+    <h4>Contato</h4>
+
+
+    <div class="contato">
+
+    <ul>
+      <p>DEV Arthur</p>
+      <li>
+      <div class="git-hub">
+      <img src="imagens/github.png" alt="" class="git-hub"> <a href="https://github.com/Arthurvini17">Github</a>
+      </div>
+        <a href="https://www.linkedin.com/in/arthur-vinicius-b22202270/">Linkedin</a>
+        <a href="">Linkedin</a>
+      </li>
+    </ul>
+
+  <div class="list-2">
+    <ul>
+      <p>DEV EDVALDO</p>
+      <li>
+      <div class="git-hub2">
+        
+        <img src="imagens/github.png" alt="" class="git-hub"> <a href="https://github.com/Arthurvini17">Github</a>
+      </div>
+        <a href="https://www.linkedin.com/in/arthur-vinicius-b22202270/">Linkedin</a>
+        <a href="">Linkedin</a>
+    </li>
+    </ul>
+    </div>
+   
+   
+    
+    </div>
     <p>&copy; 2023 Minha Loja de Eletrônicos. Todos os direitos reservados.</p>
+   
   </footer>
 </body>
 
