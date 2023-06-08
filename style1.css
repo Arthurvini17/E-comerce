@@ -12,7 +12,7 @@
 }
 
 body {
-  background-color: #e0aaff;
+  background-color: #ffffff;
   height: 100vh;
   margin: 0 auto;
 }
@@ -285,7 +285,7 @@ header a {
   padding: 30px;
   border-radius: 12px;
   box-shadow: 10px 10px 10px black;
-  filter: drop-shadow(30px 20px 5px rgb(0, 0, 0));
+  
 }
 
 
@@ -548,4 +548,11 @@ footer .contato .git-hub2 {
   
   display: flex;
   justify-content: center;
+}
+
+.conteudo .wave {
+
+
+
+    
 }

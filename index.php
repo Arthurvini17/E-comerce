@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style1.css">
   <title>Loja E-comerce</title>
 </head>
 
@@ -128,21 +128,25 @@
   </section>
 
   <section id="sobre-nos">
+ 
     <!-- Seção "Sobre Nós" -->
     <h2>Sobre Nós</h2>
-    <!-- Conteúdo sobre a empresa aqui -->
+   
   </section>
 
-
-  </section>
+  <div class="conteudo">
+    <img src="imagens/wave.svg" alt="wave" class="wave">
+    </div>
+  
 
   <footer id="contato">
-    <!-- Rodapé da página -->
+
     <h4>Contato</h4>
 
-
+    
     <div class="contato">
 
+    
       <ul>
         <p>DEV Arthur</p>
         <li>
@@ -155,6 +159,7 @@
       </ul>
 
       <div class="list-2">
+
         <ul>
           <p>DEV EDVALDO</p>
           <li>
