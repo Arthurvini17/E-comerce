@@ -5,7 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style1.css">
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   <title>Loja E-comerce</title>
 </head>
 
@@ -33,35 +35,35 @@
     <h2>OFERTAS</h2>
 
     <div class="container">
-  
-        <div class="monitor">
-          <img src="/E-comerce/eletronicos/monitor.png" alt="monitor" class="monitor-1">
-          <h4>Monitor 244HZ por apenas <span>1000 R$</span></h4>
-          <p>Coisas sobre o produto aqui
-          <p>
-        </div>
 
-        <div class="mouse">
-          <img src="/E-comerce/eletronicos/mouse-preto.png" alt="mouse-preto" class="mouse-preto">
-          <h4>Mouse Gamer 1000DPI por apenas <span>120 R$<span></h4>
-          <p>Coisas sobre o produto aqui
-          <p>
-        </div>
+      <div class="monitor">
+        <img src="/E-comerce/eletronicos/monitor.png" alt="monitor" class="monitor-1">
+        <h4>Monitor 244HZ por apenas <span>1000 R$</span></h4>
+        <p>Coisas sobre o produto aqui
+        <p>
+      </div>
 
-        <div class="fone">
-          <img src="/E-comerce/eletronicos/fone.png" alt="fone" class="fone-img">
-          <h4>Fone redragon <span> 130 R$<span></h4>
-          <p>Coisas sobre o produto aqui
-          <p>
-        </div>
+      <div class="mouse">
+        <img src="/E-comerce/eletronicos/mouse-preto.png" alt="mouse-preto" class="mouse-preto">
+        <h4>Mouse Gamer 1000DPI por apenas <span>120 R$<span></h4>
+        <p>Coisas sobre o produto aqui
+        <p>
+      </div>
 
-        <div class="controle">
-          <img src="/E-comerce/eletronicos/controle.png" alt="" class="controle-xbox">
-          <h4>Controle XBOX ONE S Branco <span>230 R$</span></h4>
-          <p>Coisas sobre o produto aqui
-          <p>
-        </div>
-        
+      <div class="fone">
+        <img src="/E-comerce/eletronicos/fone.png" alt="fone" class="fone-img">
+        <h4>Fone redragon <span> 130 R$<span></h4>
+        <p>Coisas sobre o produto aqui
+        <p>
+      </div>
+
+      <div class="controle">
+        <img src="/E-comerce/eletronicos/controle.png" alt="" class="controle-xbox">
+        <h4>Controle XBOX ONE S Branco <span>230 R$</span></h4>
+        <p>Coisas sobre o produto aqui
+        <p>
+      </div>
+
 
 
     </div>
@@ -128,37 +130,54 @@
   </section>
 
   <section id="sobre-nos">
- 
+
     <!-- Seção "Sobre Nós" -->
     <h2>Sobre Nós</h2>
-   
+
+
   </section>
 
   <div class="conteudo">
     <img src="imagens/wave.svg" alt="wave" class="wave">
-    </div>
-  
-
+  </div>
   <footer id="contato">
+
+
+
+
 
     <h4>Contato</h4>
 
-    
+
     <div class="contato">
 
-    
+
       <ul>
         <p>DEV Arthur</p>
         <li>
+
+        <div id="icon">
+            <a href >
+            <icon>
+            <div>
           <div class="git-hub">
-            <img src="imagens/github.png" alt="" class="git-hub"> <a href="https://github.com/Arthurvini17">Github</a>
-          </div>
-          <a href="https://www.linkedin.com/in/arthur-vinicius-b22202270/">Linkedin</a>
-          <a href="">Linkedin</a>
+            <a href="https://github.com/Arthurvini17">
+              <ion-icon name="logo-github" class="git-hub-logo"></ion-icon>
+            </a>
+
+          
+          <a href="https://www.linkedin.com/in/arthur-vinicius-b22202270/">
+          <ion-icon name="logo-linkedin" class="linkedin"></ion-icon>
+          </a>
+         
+        
+        
         </li>
       </ul>
+      </div>
+     
 
-      <div class="list-2">
+      <!-- <div class="list-2">
 
         <ul>
           <p>DEV EDVALDO</p>
@@ -168,10 +187,10 @@
               <img src="imagens/github.png" alt="" class="git-hub"> <a href="https://github.com/Arthurvini17">Github</a>
             </div>
             <a href="https://www.linkedin.com/in/arthur-vinicius-b22202270/">Linkedin</a>
-            <a href="">Linkedin</a>
-          </li>
+            <a href="">Linkedin</a> -->
+          <!-- </li>
         </ul>
-      </div>
+      </div>  -->
 
 
 

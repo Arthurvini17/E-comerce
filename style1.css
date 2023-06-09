@@ -8,17 +8,17 @@
 
 * {
   font-family: 'Kanit', sans-serif;
-  color: #dd22dd;
+ 
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #002488;
   height: 100vh;
   margin: 0 auto;
 }
 
 h1 {
-  color: #000000;
+  color: #f2f2f2;
   font-family: 'Poppins';
   display: flex;
   align-items: center;
@@ -53,7 +53,16 @@ header nav ul li {
 header a {
   list-style: none;
   text-decoration: none;
-  color: #10002b;
+  color: #f2f2f2;
+  letter-spacing: 1px;
+ 
+}
+
+header a::after {
+    display: flex;
+    border-bottom: 3px solid black;
+    content: "";
+
 }
 
 #produtos img {
@@ -82,7 +91,7 @@ header a {
 
 #ofertas h2 {
   font-family: 'Kanit', sans-serif;
-  color: #10002b;
+  color: #f2f2f2;
   filter: drop-shadow(8px 4px 10px black);
   align-items: center;
   justify-content: center;
@@ -531,29 +540,22 @@ footer a:hover {
 }
 
 
-footer .contato .git-hub {
-
-  gap: 10px;
-  width: 24px;
-  align-items: center;
-  display: flex;
-  justify-content: center;
+#icon {
+    gap: 10px;
+    font-size: 50px;
+ 
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
-
-
-footer .contato .git-hub2 {
-
-  gap: 10px;
-  width: 24px;
   
-  display: flex;
-  justify-content: center;
-}
-
-.conteudo .wave {
-
-
-
+  .conteudo .wave {
+    position: absolute;
+    bottom: -1290px;
+    left: 0;
+    width: 100%;
     
-}
+    z-index: -1;
+  }
