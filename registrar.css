@@ -1,0 +1,50 @@
+body {
+    background-color: #3c096c;
+   
+    height: 100vh;
+    margin: 0 auto;
+}
+
+#formulario {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.pai {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 100px;
+}
+
+.pai .texto {
+
+    background: linear-gradient(to bottom, rgba(126, 87, 194, 0.1), rgba(0, 0, 0, 0.1));
+    padding: 30px;
+    
+}
+
+.pai input {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    
+}
+
+.pai .fundo-input {
+    background: linear-gradient(to bottom, #7E57C2, #000000);
+    padding: 100px;
+    
+   
+   
+   
+
+    
+    
+  
+   
+}
+
