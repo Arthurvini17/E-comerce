@@ -1,10 +1,11 @@
 <?php
 include ('conexao.php');
 
+
 if($_SERVER["REQUEST_METHOD"] == "POST") {
     $nome = $_POST["nome"];
     $email = $_POST["email"];
-    $senha = $_POST["senha"];
+    $senha = md5($_POST["senha"]);
     $cep = $_POST["cep"];
     $cpf = $_POST["cpf"];
 
@@ -12,12 +13,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if($conn->query($sqli) === TRUE) {
         echo "Dados inseridos com sucesso!";
-        header("Location: login.php");
+        header("Location: index.php");
     } else {
         echo "erro ao inserir dados: " . $conn->error;
     }
 }
 
-$conn->close();
+
 
 ?>

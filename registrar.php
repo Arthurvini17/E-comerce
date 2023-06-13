@@ -20,9 +20,8 @@
                 <input type="number" placeholder="Digite seu CEP" name="cep">
                 <input type="number" placeholder="Digite seu CPF" name="cpf">
                 <input type="submit" >
-                
-
             </form>
+            <a href="login.php">Ja tenho uma conta</a>
             </div>
         </div>
     </section>

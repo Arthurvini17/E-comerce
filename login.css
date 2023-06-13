@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;0,800;0,900;1,600;1,700;1,800;1,900&display=swap');
+body {
+
+    background-color: #f2f2f2;
+   
+    height: 100vh;
+    margin: 0 auto;
+   
+}
+
+.pai {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 100px;
+    background-color: rgba(0, 0, 1, 0.505);
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+   
+
+}
+
+
+.pai h2 {
+    filter: drop-shadow(1px 1px 2px #f2f2f2);
+    background-color: rgba(0, 0, 1, 0.505);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 1px black;
+    font-family: 'Poppins';
+   
+   
+}
+.pai h2:hover{
+  padding: 40px;
+  transition: padding 300ms;
+}
+
+
+#promocao {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Poppins';
+    color: #f2f2f2;
+    
+   
+}
+
+.promocao {
+   
+    background-color: rgba(0, 0, 1, 0.755);
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    display: flex;
+    margin-top: 10px;
+   
+   
+}
+
+.pai .wave {
+    position: fixed;
+   
+    
+    width: 100%;
+    top: 500px;
+    z-index: -1;
+}
+#formulario {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   
+}
+.pai input[type="submit"] {
+    align-items: end;
+    display: flex;
+    
+}
+
+.pai a {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    color: black;
+  
+}
